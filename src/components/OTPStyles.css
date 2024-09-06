@@ -1,0 +1,60 @@
+.otp-box {
+    background-color: #191919;
+    color: #D1D9D1;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.otp-box h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.otp-box p {
+    text-align: center;
+}
+
+.input-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.input-boxes input {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.send-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+.send-button.valid {
+    background-color: green;
+    cursor: pointer;
+}
+
+.send-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.cheat-number {
+    text-align: center;
+}
